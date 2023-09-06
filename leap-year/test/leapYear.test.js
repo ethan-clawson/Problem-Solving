@@ -1,4 +1,4 @@
-const leapYear = require('./leapYear');
+const leapYear = require('../leapYear');
 
 describe('LeapYear', () => {
   it('should return leap year if number is divisible by 400', () => {
