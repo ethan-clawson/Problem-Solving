@@ -64,7 +64,23 @@ Acceptance Criteria
 2.4.1 :006 > leap_year?(1500)
 => false
 
+---
+
 Extension Options
+
 Write a program that takes a start year and an end year and returns an array of all the leap years between.
+
+findAllLeapYears(start, end) {
+leapYearArray = []
+takes the two dates numbers and runs all the numbers inbetween the dates through the leap
+year function and adds the numbers that return true to the array,
+returns the array
+}
+
+test 0 and 10 - returns [4, 8]
+test 5 and 7 - returns []
+test 80 and 120 - [80, 84, 88, 92, 96, 104, 108, 112, 116, 120]
+
+---
 
 Write a program that when given a year, will return the closest leap year (this could be before or after the given year)
