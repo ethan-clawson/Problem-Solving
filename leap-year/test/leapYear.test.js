@@ -21,4 +21,24 @@ describe('LeapYear', () => {
     const five = leapYear(5);
     expect(five).toBe('Not a Leap Year');
   });
+  it('passes first acceptance criteria rule', () => {
+    const twoThousand = leapYear(2000);
+    expect(twoThousand).toBe('Leap Year');
+  });
+  it('passes second acceptance criteria rule', () => {
+    const nineteenSeventy = leapYear(1970);
+    expect(nineteenSeventy).toBe('Not a Leap Year');
+  });
+  it('passes third acceptance criteria rule', () => {
+    const nineteenEightyEight = leapYear(1988);
+    expect(nineteenEightyEight).toBe('Leap Year');
+  });
+  it('passes fourth acceptance criteria rule', () => {
+    const nineteenHundred = leapYear(1900);
+    expect(nineteenHundred).toBe('Not a Leap Year');
+  });
+  it('passes fifth acceptance criteria rule', () => {
+    const fifteenHundred = leapYear(1500);
+    expect(fifteenHundred).toBe('Not a Leap Year');
+  });
 });

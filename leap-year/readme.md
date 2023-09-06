@@ -63,6 +63,7 @@ Acceptance Criteria
 => true
 2.4.1 :006 > leap_year?(1500)
 => false
+
 Extension Options
 Write a program that takes a start year and an end year and returns an array of all the leap years between.
 
