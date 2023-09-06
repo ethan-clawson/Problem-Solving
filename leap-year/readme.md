@@ -21,6 +21,12 @@ eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^
 
 run tests - npx jest
 
+Add following line in .eslintrc.js file
+
+"env": {
+"jest": true
+}
+
 ---
 
 Leap Years
